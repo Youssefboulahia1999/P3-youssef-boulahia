@@ -59,10 +59,12 @@ p {
 h2{font-family: 'Roboto';}
 
 h4{
+  font-weight:600;
   font-family: 'Roboto';
 }
 
 h1 {
+  font-weight:600;
   font-family: 'Roboto';
   margin: 0px;
 }
@@ -152,8 +154,8 @@ div.p3 {
 }
 
 div.pp1 {
-  padding-top:10px;
-  padding-bottom:10px;
+  padding-top:15px;
+  padding-bottom:15px;
   margin-top: 15px;
   width: 60%;
   display: flex;
@@ -163,8 +165,8 @@ div.pp1 {
 }
 
 div.pp2 {
-  padding-top:10px;
-  padding-bottom:10px;
+  padding-top:15px;
+  padding-bottom:15px;
   margin-top: 15px;
   width: 60%;
   margin-left: 5%;
@@ -176,8 +178,8 @@ div.pp2 {
 }
 
 div.pp3 {
-  padding-top:10px;
-  padding-bottom:10px;
+  padding-top:15px;
+  padding-bottom:15px;
   margin-top: 15px;
   width: 60%;
   display: flex;
@@ -282,9 +284,8 @@ div.text:hover .coeur .fas{
   background: -webkit-linear-gradient(#ff79da, #9356dc);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size:34px;
   opacity: 1; 
-  transition: opacity 1000ms;
+  transition: opacity 3000ms;
   }
 
 div.text:hover .coeur .far{
@@ -296,6 +297,7 @@ div.text:hover .coeur .far{
 }
   
   .coeur .fas{
+    font-size:25px;
   position: absolute;
   opacity:0%;
   }
