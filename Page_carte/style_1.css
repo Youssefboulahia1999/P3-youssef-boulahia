@@ -68,7 +68,6 @@ section.menu{
       position:absolute;
       left:89.9%;
       margin-top:-3px;
-      font-size:30px;
       background: -webkit-linear-gradient(#ff79da, #9356dc);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -281,9 +280,10 @@ div.proposer{color:white;display:flex;}
 div.devenir{color:white;display:flex;}
 ul{list-style:none;
 }
-a.footer{font-size:15px;}
+a.footer{font-size:13px;}
 
 p.pa{
+  font-size:13px;
   overflow:initial;
   margin-left:2%;
   width:100%;}
